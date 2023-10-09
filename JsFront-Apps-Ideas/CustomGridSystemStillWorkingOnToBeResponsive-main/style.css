@@ -1,0 +1,105 @@
+/*usunecie margin przegladarki*/
+body{
+	margin:auto 0px;
+	background-color: ;
+}
+/*ustawienie wyswietlania listy ul o clasie navlist jako flex   i driecttion row */
+.navList{
+	display:flex;
+	flex-direction: row;
+	background-color:#3482D3;
+
+}
+.navBar{
+	width:100%;
+}
+/*obrazek w liscie li*/
+.liImg{
+	width:8vh;
+	height:6vh;
+}
+/*usuniecie list style (kropek) wstawienie czcionko do list ul*/
+ul{
+	text-decoration: none;
+	list-style-type:none;
+	color:#E5F4FF;
+	font-family: 'Architects Daughter', cursive;
+	font-size:30px;
+}
+/*transforamcje kazdego elemntu listy*/
+li{
+	margin:15px;
+	transition:1.2s;
+
+	/*anim listy*/
+}
+li:hover{
+	transform:scale(1.2);
+}
+a{
+	text-decoration:none;
+}
+/*prawy elemnt paska*/
+.push{
+	/*border:1px white solid;*/
+	margin-left:auto;
+}
+/*ustaweinie srodkowania contentnu*/
+.container{
+	margin:0px;
+	justify-content: center;
+	text-align: center;
+	align-items:center;
+	margin-bottom: 3px;
+}
+/*parametry zdjecia w cont*/
+.container>img{
+	width:75%;
+	height:45vh;
+}
+/*Ustawienie tekstu nad obrazkiem pierwsze3 linijski*/
+.cen{
+	position:absolute;
+	top:30%;
+	left:35%;
+	color:white;
+	font-size:60px;
+	transition:1.2s;
+	font-family: 'Architects Daughter', cursive;
+}
+/*animacja tekstu centrowanego nad obr*/
+.cen:hover{
+	transform:scale(1.2);
+}
+/*ustawienie wyswietlania grida okalajacego obrazki i boxy z nimi*/
+.gridWrap{
+	margin-top: 5px;
+	display:grid;
+	grid-template-columns: 40vh 40vh 38vh;
+	grid-template-rows: 40vh 40vh 40vh;
+	justify-content: center;
+
+}
+
+a>img{
+	width:40%;
+	border-color: orange;
+}
+a>img:hover{
+	transform:scale(1.2);
+	/*transform:rotate(-7deg);*/
+}
+.foot{
+	position: relative;
+	color:white;
+	background-color:#3482D3;
+	height:25vh;
+}
+.foot>span{
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.foot:hover{
+	/*transform:scale(1.2);*/
+}

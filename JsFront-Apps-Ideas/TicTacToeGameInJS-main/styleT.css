@@ -1,0 +1,11 @@
+  
+        .first{
+            width:30%;
+            height:280px;
+            background-color:lightblue;
+            float:left;
+            text-align:center;
+            color:red;
+            margin:9px;
+            font-size:45px;
+          }

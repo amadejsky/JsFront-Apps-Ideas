@@ -1,0 +1,40 @@
+.nav{
+    background-color: rgb(11, 179, 239);
+    width:100vw;
+    height:10vh;
+    font-size: 2rem;
+    padding:0px;
+    margin:0px;
+    text-align: center;
+    -webkit-box-shadow: 0px 22px 31px 0px rgba(66, 68, 90, 1);
+-moz-box-shadow: 0px 22px 31px 0px rgba(66, 68, 90, 1);
+box-shadow: 0px 22px 31px 0px rgba(66, 68, 90, 1);
+}
+body{
+    width:100vw;
+    height:100vh;
+}
+.content{
+    width:100vw;
+    height:100vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.bar{
+    width:40vw;
+    height:15vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: gray;
+    border-radius: 10px;
+    color:white;
+}
+button{
+    margin-top: 5%;
+    width:20vw;
+    padding-bottom:15vh;
+    padding-top: 15vh;
+    border-radius: 20px;
+}

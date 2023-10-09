@@ -1,0 +1,55 @@
+.mode{
+    background-image: url("moon.png");
+    height: 5.2vh;
+    width: 5.4vh;
+    background-repeat: no-repeat;
+    position: absolute;
+    right:2vh;
+    top:2vh;
+    
+}
+.mode:hover{
+transform: scale(1.2);
+transition: 1.5s ease-in-out;   
+
+}
+
+.cont{
+    background-color: aliceblue;
+    background-color: white;
+    max-width:400px;
+    margin: 10vh auto 0 auto;
+    -webkit-box-shadow: 8px 8px 25px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 25px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 25px 0px rgba(66, 68, 90, 1);
+}
+#display{
+    text-align: right;
+    height:10vh;
+    border: 0.4px solid #FE5C36;
+    font-size: 4vh;
+}
+.buttons{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height:63vh;
+    
+}
+.button{
+    border: 0.4px solid #FE5C36;
+    cursor:pointer;
+    width:auto;
+    height:auto;
+    text-align: center;
+    justify-content: center;
+    font-size:2.4rem;
+}
+#equal{
+    background-color: #54AFBC;
+}
+.button:hover{
+    background-color: #FE5C36;
+}
+#equal:hover{
+    background-color: #FFB449;
+}

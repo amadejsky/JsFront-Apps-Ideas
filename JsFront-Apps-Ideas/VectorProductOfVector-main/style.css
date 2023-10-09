@@ -1,0 +1,149 @@
+#cont{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    
+    /* height:100%; */
+ 
+    
+}
+
+
+/* counting section */
+#in{
+    text-align: center;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%) ;
+
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    background-color: transparent;
+    color:white;
+    height: auto;
+    font-size: 2rem;
+    border-radius:2%;
+    font-family: 'Righteous', cursive;
+    
+}
+#result{
+    color:white;
+    font-size: 2.3rem;
+    font-family: 'Righteous', cursive;
+    border
+}
+#in > *{
+    flex:1 1 100%;
+}
+
+#subm{
+    width:50px;
+    background-color: green;
+    font-weight: bolder;
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+}
+
+
+/*  */
+
+
+/* divs for code rain */
+#f{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+    
+   
+    
+}
+@keyframes animate{
+    0%{
+        opacity:(1);
+    }
+    100%{
+        opacity:(0);
+    }
+}
+#s{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+}
+#t{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+}
+#fo{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+}
+#fi{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+}
+#si{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+}
+#se{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+}
+#ei{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+}
+
+#ni{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+}
+#te{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+}
+#el{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+}
+#tv{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+}
+#th{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+}
+#ft{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+}
+#fft{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+}
+#st{
+    writing-mode: vertical-lr;
+    color:green;
+    font-size: 1.5rem;
+}
+
+body{
+    background-color:black;
+}

@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 5vh;
+    background:linear-gradient(to right,#ff0fff,#000fff);
+}
+h2{
+    font-size: 4vh;
+}
+h3{
+    font-size:3vh;
+    text-transform: none;
+    font-family: 'Georgia';
+}

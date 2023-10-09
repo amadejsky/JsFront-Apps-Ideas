@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:linear-gradient(to right,#000e4f,#d12176);
+    color:white;
+    font-family: 'Stick No Bills', sans-serif;
+}
+.banner ul{
+    float:right;
+    
+}
+.banner ul li{
+    display: inline-block;
+    padding:10px;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+}
+.banner h2{
+    position: absolute;
+    left:37%;
+    top:30%;
+    font-size: 50px;
+}
+.area{
+    width:100;
+    height:100;
+}
+.area ul{
+    list-style:none;
+}
+.area ul li{
+    width:50px;
+    height:50px;
+    position: absolute;
+    background-color:rgba(255,255,255,0.2);
+    animation:animate 15s linear infinite;
+    bottom:-150px;
+}
+.area ul li:nth-child(1){
+    width:50px;
+    height:50px;
+    position: absolute;
+    background-color:rgba(255,255,255,0.2);
+    animation:animate 15s linear infinite;
+    animation-delay:0.3s;
+    
+}
+.area ul li:nth-child(2){
+    width:35px;
+    height:35px;
+    position:absolute;
+    left:15%;
+    background: rgba(255,255,255,0.2);
+    animation-duration:10s;
+    animation-delay:0s;
+
+
+}
+.area ul li:nth-child(3){
+    width:70px;
+    height:70px;
+    position:absolute;
+    left:30%;
+    background: rgba(255,255,255,0.2);
+}
+.area ul li:nth-child(4){
+    width:100px;
+    height:100px;
+    animation-delay:1s;
+    animation-duration:20s;
+    position:absolute;
+    left:47%;
+    background: rgba(255,255,255,0.2);
+}
+.area ul li:nth-child(5){
+    width:45px;
+    height:45px;
+    position:absolute;
+    left:72%;
+    background: rgba(255,255,255,0.2);
+}
+.area ul li:nth-child(6){
+    position:absolute;
+    left:90%;
+    background: rgba(255,255,255,0.2);
+    height:130px;
+    width:130px;
+    animation-delay:0.7s;
+    animation-duration: 13s;
+}
+@keyframes animate{
+    0%{
+        transform: translateY() rotate(0deg);
+        opacity:1;
+    }
+    100%{
+        transform:translateY(-800px) rotate(360deg);
+        opacity:0;
+    }
+}

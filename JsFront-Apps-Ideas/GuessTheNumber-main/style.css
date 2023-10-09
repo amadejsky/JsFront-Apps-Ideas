@@ -1,0 +1,40 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-color: #353b48;
+    font-size: 2rem;
+    
+}
+@media only screen and (max-width:615px){
+    body{
+        font-size: 1.2rem;
+    }
+}
+html{
+    color:white;
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+#t{
+  color:white;
+
+}
+
+h1 span{
+    display:none;
+    color:#4cd137;
+}
+#input{
+    color:#4cd137;
+    background-color: #353b48;
+    width:100%;
+}
+#button{
+    background-color: #353b48;
+    color:white;
+}
+#display{
+    font-size: 2rem;
+}
+#button:hover{
+    cursor: pointer;
+}

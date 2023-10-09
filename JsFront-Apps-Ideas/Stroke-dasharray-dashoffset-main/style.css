@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+   
+    min-height:100vh;
+    background:#06181f;
+}
+.container{
+    position: relative;
+    width:800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .icon{
+    width:200px;
+}
+
+.container .icon path{
+    fill:transparent;
+    stroke-width:11;
+    stroke: #31e8ff;
+
+}
+.container .icon.M path{
+    stroke-dasharray: 1070;
+    stroke-dashoffset: 0;
+}
+.container .icon.M:hover path{
+    animation: animate-M 2s linear forwards;
+}
+@keyframes animate-M{
+    0%{
+        stroke-dashoffset: 0;
+    }
+    40%{
+        stroke-dashoffset: 1070;
+    }
+    80%{
+        stroke-dashoffset: 2140;
+    }
+    100%{
+        stroke-dashoffset: 2140;
+        fill:#31e8ff;
+    }
+}
+.container .icon.H path{
+    stroke-dasharray: 1740;
+    stroke-dashoffset: 0;
+}
+.container .icon.H:hover path{
+    animation: animate-M 2s linear forwards;
+}
+@keyframes animate-H{
+    0%{
+        stroke-dashoffset: 0;
+    }
+    40%{
+        stroke-dashoffset: 1070;
+    }
+    80%{
+        stroke-dashoffset: 1400;
+    }
+    100%{
+        stroke-dashoffset: 1740;
+        fill:#31e8ff;
+    }
+}
+.container .icon.S path{
+    stroke-dasharray: 1540;
+    stroke-dashoffset: 0;
+}
+.container .icon.S:hover path{
+    animation: animate-M 2s linear forwards;
+}
+@keyframes animate-S{
+    0%{
+        stroke-dashoffset: 0;
+    }
+    40%{
+        stroke-dashoffset: 1070;
+    }
+    80%{
+        stroke-dashoffset: 1300;
+    }
+    100%{
+        stroke-dashoffset: 1540;
+        fill:#31e8ff;
+    }
+}

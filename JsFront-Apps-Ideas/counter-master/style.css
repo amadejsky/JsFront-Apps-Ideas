@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    font-family: 'Koulen', cursive;
+    color:#485460;
+    background-color: #ff5e57;
+
+}
+h1{
+    font-size: 4vw;
+}
+.cont{
+    width:100vw;
+    height:100vh;
+    display:inline;
+    text-align: center;
+}
+#amount{
+    margin-top: -5vh;
+    font-size: 4vw;
+    color: #485460;
+}
+.btn-container{
+    margin-left: 17%;
+    width: 80%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.btn{
+    width:15vw;
+    border-radius: 20px;
+    font-family: 'Koulen', cursive;
+    background-color: #485460;
+    transition: 5s linera ease-in-out;
+}
+.btn:hover{ 
+    transform:scale(1.2);
+}
+

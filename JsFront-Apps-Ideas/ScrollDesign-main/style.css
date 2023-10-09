@@ -1,0 +1,83 @@
+html{
+    background-color: black;
+    color: white;
+    padding:1vw;
+    font-family: 'Shizuru', cursive;
+}
+
+h2{
+    text-align: center;
+    font-size: 4vh;
+}
+h2:hover{
+    transform: scale(1.2);
+    transition: 1.4s;
+}
+
+
+#path{
+    position: fixed;
+    top:0;
+    right:0;
+    width:1vw;
+    height:100%;
+    background: rgba(255,255,255,0.05);
+}
+
+#scrollBar{
+  
+}
+
+/* #scrollBar::before{
+    position: absolute;
+    top:0;
+    right:3vh;
+    width:0.7vw;
+    height:100%;
+    background:linear-gradient(to top,#A3CB38,#12CBC4 );
+    content: '';
+    filter:blur(2vw);
+} */
+/* 
+@keyframes animate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    50%{
+        filter: hue-rotate(360deg);
+    }
+    100%{
+        filter: hue-rotate(0deg);
+    }
+} */
+
+::-webkit-scrollbar{
+    width:2em;
+}
+
+::-webkit-scrollbar-track{
+    background-color: black;
+    margin-block: 3vh;
+}
+
+::-webkit-scrollbar-thumb{
+    /* position: fixed; */
+    top:0;
+    right:0;
+    width:0.7vw;
+    height:37%;
+    background:linear-gradient(to top,#e056fd,#12CBC4 );
+    /* animation:animate 7s linear infinite; */
+    border-radius: 100vw;
+    border: 0.01vh solid white;
+    
+}
+/* ::-webkit-scrollbar-thumb::before{
+    background:linear-gradient(to top,#A3CB38,#12CBC4 );
+    content: '';
+    filter:blur(2vw);
+    height:100%;
+    width:30px;
+}
+
+ */

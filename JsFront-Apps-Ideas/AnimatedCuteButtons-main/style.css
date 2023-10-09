@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    background:#06181f;
+}
+.content{
+    display: flex;
+    position: relative;
+    width:100vh;
+    justify-content: space-between;
+}
+.content .icon{
+    width:30vh;
+}
+.content .icon path{
+    stroke-dasharray: 1570;
+    stroke-dashoffset: 0;
+    stroke-width: 10;
+    stroke:#31e8ff;
+}
+.content .icon.planet:hover path{
+    animation:animate-planet 2s linear forwards;
+}
+@keyframes animate-planet{
+    0%{
+        stroke-dashoffset: 0;
+    }
+    40%{
+        stroke-dashoffset: 700;
+    }
+    80%{
+        stroke-dashoffset: 1500;
+    }
+    100%{
+        stroke-dashoffset: 1570;
+        fill:#31e8ff;
+    }
+}
+.content .icon.fb path{
+    stroke-dasharray: 3150;
+    stroke-dashoffset: 0;
+    stroke-width: 10;
+    stroke:#31e8ff;
+}
+.content .icon.fb:hover path{
+    animation: animate-fb 2s linear forwards;
+}
+@keyframes animate-fb{
+    0%{
+        stroke-dashoffset: 0;
+    }
+    40%{
+        stroke-dashoffset: 1100;
+    }
+    80%{
+        stroke-dashoffset:2100;
+    }
+    100%{
+        stroke-dashoffset:3150;
+        fill:#31e8ff;
+    }
+}
+.content .icon.cv path{
+    stroke-dasharray: 1700;
+    stroke-dashoffset: 0;
+}
+.content .icon.cv:hover path{
+    animation:animate-cv 2s linear forwards;
+}
+@keyframes animate-cv{
+    0%{
+        stroke-dashoffset: 0;
+    }
+    40%{
+        stroke-dashoffset:700; 
+    }
+    80%{
+        stroke-dashoffset: 1550;
+    }
+    100%{
+        stroke-dashoffset: 1700;
+        fill:#31e8ff;
+    }
+}

@@ -1,0 +1,84 @@
+
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    font-family: 'Architects Daughter', cursive;
+
+    
+}
+body h1{
+    position: absolute;
+    left:45%;
+    color:white;
+    font-size: 9vh;
+}
+
+#container{
+    background-color: rgba(0,0,0,0.325);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width:80vw;
+    height:85vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 5vh;
+}
+#container span{
+    padding:5vw;
+}
+#days{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 2.5vw;
+}
+
+#hours{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 2.5vw;
+}
+
+#minutes{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 2.5vw;
+}
+
+#seconds{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 2.5vw;
+}
+@media only screen and (max-width:500px){
+    #container{
+        font-size: 2vh;
+    }
+
+    #days{
+    
+        padding: 1vw;
+    }
+    
+    #hours{
+       
+        padding: 1vw;
+    }
+    
+    #minutes{
+       
+        padding: 1vw;
+    }
+    
+    #seconds{
+        
+        padding: 1vw;
+    }
+}
